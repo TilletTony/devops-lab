@@ -1,11 +1,11 @@
 #!/bin/bash
 
---Arrête le script en cas d'erreur--
+# Arrête le script en cas d'erreur
 set -e
---Gère correctement les erreurs dans les pipelines--
+# Gère correctement les erreurs dans les pipelines
 set -o pipefail
 
- -- Début du script --
+# -- Début du script --
 
 echo "################################################"
 echo "### Rapport des performances du serveur"
